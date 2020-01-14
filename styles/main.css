@@ -23,7 +23,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -60,7 +60,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -146,7 +146,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -190,7 +190,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -271,7 +271,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -313,7 +313,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -475,7 +475,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -496,6 +496,7 @@ button, .slider__description {
   .info__text {
     padding: 20px; }
   .info__title {
+    width: 240px;
     font-size: 32px;
     line-height: 34px;
     letter-spacing: -2px;
@@ -516,6 +517,7 @@ button, .slider__description {
     .info__text {
       padding: 80px 30px 20px; }
     .info__title {
+      width: 350px;
       font-size: 64px;
       line-height: 68px; }
     .info__description {
@@ -573,7 +575,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -592,7 +594,9 @@ button, .slider__description {
   color: #fff;
   border: 1px solid #2060f6;
   -webkit-transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
-  transition: color 400ms ease-in-out, background-color 400ms ease-in-out; }
+  transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
+  outline: none;
+  cursor: pointer; }
   .button:hover {
     background-color: #fff;
     color: #2060f6; }
@@ -622,7 +626,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -645,8 +649,8 @@ button, .slider__description {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 40px;
-    bottom: 20px;
-    left: 50%; }
+    bottom: 15px;
+    left: 20px; }
   .slider__controls-item {
     display: inline-block;
     position: relative;
@@ -667,11 +671,23 @@ button, .slider__description {
       height: 10px;
       background: #fff;
       border-radius: 50%; }
-  .slider__text {
+  .slider__info {
     position: absolute;
-    left: 100px;
-    bottom: 48px;
-    color: #fff; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 280px;
+    bottom: 25px;
+    left: 20px; }
+  .slider__text {
+    color: #fff;
+    width: 184px; }
   .slider__title {
     font-weight: 700;
     letter-spacing: 3px;
@@ -683,9 +699,6 @@ button, .slider__description {
     font-size: 14px;
     line-height: 1.4; }
   .slider__switcher {
-    position: absolute;
-    left: 20px;
-    bottom: 66px;
     width: 72px; }
   .slider__button {
     position: relative;
@@ -694,25 +707,16 @@ button, .slider__description {
     height: 32px;
     border: none;
     border-radius: 50%;
+    background-image: url(../images/slider/arrow-left.svg);
+    background-position: center;
+    background-repeat: no-repeat;
     outline: none;
     cursor: pointer; }
-    .slider__button::before {
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%) rotate(45deg);
-              transform: translate(-50%, -50%) rotate(45deg);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      width: 7px;
-      height: 7px;
-      border-top: 2px solid #253757;
-      border-right: 2px solid #253757; }
-    .slider__button--left {
-      -webkit-transform: rotate(-180deg);
-              transform: rotate(-180deg); }
+    .slider__button--right {
+      background-image: url(../images/slider/arrow-right.svg); }
   .slider__item {
     display: none;
-    width: 100%;
+    width: 100vw;
     height: calc(100vh - 304px);
     border-radius: 30px 0; }
     .slider__item--1 {
@@ -743,10 +747,18 @@ button, .slider__description {
             transform: translate(-50%, -50%); }
 
 @media (min-width: 640px) {
-  .slider__text {
-    left: 144px; }
-  .slider__switcher {
+  .slider__controls {
+    bottom: 25px;
     left: 48px; }
+  .slider__info {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 360px;
+    bottom: 48px;
+    left: 48px; }
+  .slider__text {
+    width: 264px; }
   .slider__item {
     height: calc(100vh - 389px); } }
 
@@ -792,7 +804,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -853,7 +865,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -932,7 +944,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -991,7 +1003,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -1107,7 +1119,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 
@@ -1160,7 +1172,9 @@ button, .slider__description {
     border-radius: 50%;
     background-image: url(../images/arrow.svg);
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    outline: none;
+    cursor: pointer; }
   .process-card__more {
     margin-left: 16px;
     font-size: 15px;
@@ -1192,7 +1206,7 @@ button, .slider__description {
   background-size: cover; }
 
 .header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after, .slider__button::before {
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
   content: "";
   position: absolute; }
 

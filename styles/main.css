@@ -1,4 +1,4 @@
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -35,7 +35,7 @@ button, .slider__description {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -122,7 +122,7 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   font-style: normal; }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -166,7 +166,7 @@ button, .slider__description {
   .container {
     width: 1145px; } }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -247,7 +247,7 @@ button, .slider__description {
   .header__link {
     margin-left: auto; } }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -289,7 +289,7 @@ button, .slider__description {
   height: 26px;
   background-image: url(../images/logo/air-logo.svg); }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -451,7 +451,7 @@ button, .slider__description {
               animation: none;
       border: none; } }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -508,9 +508,7 @@ button, .slider__description {
     margin-bottom: 20px;
     max-width: 362px; }
   .info__button {
-    padding: 14px 70px;
-    border-radius: 25px;
-    cursor: pointer; }
+    padding: 14px 70px; }
 
 @media (min-width: 640px) {
   .info {
@@ -551,7 +549,7 @@ button, .slider__description {
   .info__text {
     padding: 120px 0; } }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -591,9 +589,11 @@ button, .slider__description {
 .button {
   font-size: 15px;
   line-height: 22px;
+  padding: 17px 90px;
   background-color: #2060f6;
   color: #fff;
   border: 1px solid #2060f6;
+  border-radius: 8px;
   -webkit-transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
   transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
   outline: none;
@@ -602,7 +602,7 @@ button, .slider__description {
     background-color: #fff;
     color: #2060f6; }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -780,7 +780,7 @@ button, .slider__description {
   .slider {
     right: calc((100vw - 1600px) / 2); } }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -841,7 +841,7 @@ button, .slider__description {
     padding: 148px 0;
     width: 754px; } }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -920,7 +920,7 @@ button, .slider__description {
           -ms-flex-pack: justify;
               justify-content: space-between; } }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -979,7 +979,7 @@ button, .slider__description {
     font-size: 14px;
     line-height: 1.5; }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1071,7 +1071,8 @@ button, .slider__description {
       margin-bottom: 30px; }
     .process__item:nth-child(odd) {
       -webkit-transform: translateY(142px);
-              transform: translateY(142px); } }
+              transform: translateY(142px);
+      z-index: 1; } }
 
 @media (min-width: 1024px) {
   .process__container {
@@ -1095,7 +1096,7 @@ button, .slider__description {
   .process__container {
     padding: 148px 0 44px; } }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1182,7 +1183,7 @@ button, .slider__description {
     line-height: 22px;
     color: #334563; }
 
-.header__link, .nav__link, .info__title, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle {
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1219,49 +1220,504 @@ button, .slider__description {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.approach {
+.approach__container {
   background-color: #2c2c2c;
   min-width: 320px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px; }
+
+.approach__text {
+  padding: 50px 20px; }
+
+.approach__title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+.approach__subtitle {
+  margin-bottom: 32px;
+  color: #fff;
+  font-size: 26px;
+  line-height: 1.3; }
+
+.approach__item {
+  margin-bottom: 30px; }
+
+.approach__item:last-child {
+  margin-bottom: 0; }
+
+.approach__icon {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .approach__icon--1 {
+    background-image: url(../images/features-item-icon-1.svg); }
+  .approach__icon--2 {
+    background-image: url(../images/features-item-icon-2.svg); }
+  .approach__icon--3 {
+    background-image: url(../images/features-item-icon-3.svg); }
+
+.approach__description {
+  width: 264px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5; }
+
+.approach__image {
+  display: block;
+  width: 100%;
+  border-bottom-left-radius: 30px; }
+
+@media (min-width: 480px) {
   .approach__text {
-    padding: 50px 20px; }
-  .approach__title {
+    padding: 100px 30px 50px; }
+  .approach__subtitle {
+    font-size: 32px;
+    width: 362px; }
+  .approach__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .approach__icon {
+    margin: 0;
+    margin-right: 34px; } }
+
+@media (min-width: 780px) {
+  .approach {
+    position: relative; }
+    .approach__image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 50%;
+      height: 450px; } }
+
+@media (min-width: 1024px) {
+  .approach {
+    position: relative;
+    padding-left: 120px; }
+    .approach__text {
+      padding-top: 204px; } }
+
+@media (min-width: 1280px) {
+  .approach__text {
+    padding: 204px 0 204px 204px; }
+  .approach__image {
+    width: 550px;
+    height: 550px; } }
+
+@media (min-width: 1600px) {
+  .approach {
+    margin: auto;
+    width: 1600px; }
+    .approach__image {
+      width: 687px;
+      height: 480px; } }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav--closed .nav__toggle::before,
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.testimonials {
+  padding: 50px 0; }
+  .testimonials__title {
     margin-bottom: 16px;
+    padding: 0 20px;
     font-weight: 700;
-    color: #fff;
+    color: #c0cdd7;
     font-size: 13px;
     line-height: 19px;
     letter-spacing: 3px;
     text-transform: uppercase; }
-  .approach__subtitle {
-    margin-bottom: 24px;
-    color: #fff;
+  .testimonials__subtitle {
+    margin-bottom: 32px;
+    padding: 0 20px;
+    width: 190px;
+    color: #253757;
     font-size: 26px;
     line-height: 1.3; }
-  .approach__icon {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background-color: #fff;
-    background-position: center;
-    background-repeat: no-repeat; }
-    .approach__icon--1 {
-      background-image: url(../images/features-item-icon-1.svg); }
-    .approach__icon--2 {
-      background-image: url(../images/features-item-icon-2.svg); }
-  .approach__description {
-    color: #fff;
-    font-size: 15px;
-    line-height: 1.5; }
-  .approach__image {
-    display: block;
-    width: 100vw;
-    max-width: 687px;
-    border-bottom-left-radius: 30px; }
+  .testimonials__item {
+    margin: auto;
+    margin-bottom: 30px; }
+  .testimonials__item:last-child {
+    margin-bottom: 0; }
 
-@media (min-width) {
-  .approach__sibtitle {
-    font-size: 32px; } }
+@media (min-width: 768px) {
+  .testimonials {
+    padding: 100px 30px; }
+    .testimonials__title {
+      padding: 0; }
+    .testimonials__subtitle {
+      margin-bottom: 85px;
+      padding: 0;
+      width: 220px;
+      font-size: 32px; }
+    .testimonials__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+
+@media (min-width: 1024px) {
+  .testimonials {
+    padding: 100px 0; }
+    .testimonials__list {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+    .testimonials__item {
+      margin: 0; } }
+
+@media (min-width: 1280px) {
+  .testimonials {
+    margin: auto;
+    padding: 148px 0 168px;
+    width: 1146px; } }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav--closed .nav__toggle::before,
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.person {
+  position: relative;
+  width: 314px;
+  background-color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  padding: 87px 32px 32px; }
+  .person__photo {
+    position: relative; }
+    .person__photo::before, .person__photo::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 139px;
+      height: 56px;
+      border-radius: 12px;
+      background-color: #2060f6;
+      -webkit-transform: rotate(-60deg);
+              transform: rotate(-60deg); }
+    .person__photo::before {
+      top: 0;
+      left: 10px; }
+    .person__photo::after {
+      top: 85px;
+      left: 105px; }
+  .person__image {
+    position: relative;
+    margin-bottom: 111px;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; }
+  .person__text {
+    position: relative;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #6c788b;
+    font-weight: 600; }
+    .person__text::before {
+      content: "";
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      width: 21px;
+      height: 19px;
+      background-image: url(../images/quotes.svg);
+      background-position: center;
+      background-repeat: no-repeat; }
+  .person__name {
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #253757; }
+  .person__job {
+    color: #c0cdd7;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__title, .process__subtitle, .process-card__number, .process-card__more, .approach__title, .approach__subtitle, .testimonials__title, .testimonials__subtitle, .person__job, .vision__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav--closed .nav__toggle::before,
+.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.vision {
+  position: relative;
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center; }
+  .vision__title {
+    margin: 24px;
+    color: #253757;
+    font-size: 30px;
+    line-height: 1.5; }
+  .vision__text {
+    margin-bottom: 79px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6c788b; }
+  .vision__block {
+    display: none; }
+
+@media (min-width: 640px) {
+  .vision {
+    padding: 100px 20px; }
+    .vision__title {
+      font-size: 52px; }
+    .vision__text {
+      margin: auto;
+      margin-bottom: 79px;
+      width: 500px;
+      font-size: 24px; }
+    .vision__block--small {
+      display: block;
+      position: absolute;
+      width: 45px;
+      height: 18px;
+      border-radius: 6px;
+      border: 3px solid #2060f6;
+      -webkit-transform: rotate(-65deg);
+              transform: rotate(-65deg);
+      opacity: 0.5; }
+      .vision__block--small:nth-of-type(1) {
+        top: 40%;
+        left: 15%; }
+      .vision__block--small:nth-of-type(2) {
+        bottom: 20%;
+        left: 20%; }
+      .vision__block--small:nth-of-type(3) {
+        position: absolute;
+        width: 45px;
+        height: 18px;
+        border-radius: 8px;
+        border: 3px solid #2060f6;
+        -webkit-transform: rotate(-65deg);
+                transform: rotate(-65deg);
+        opacity: 0.5;
+        top: 40%;
+        right: 10%; }
+      .vision__block--small:nth-of-type(4) {
+        bottom: 25%;
+        right: 15%; }
+      .vision__block--small:nth-of-type(5) {
+        position: absolute;
+        width: 45px;
+        height: 18px;
+        border-radius: 12px;
+        border: 5px solid #2060f6;
+        -webkit-transform: rotate(-65deg);
+                transform: rotate(-65deg);
+        opacity: 0.5;
+        bottom: 35%;
+        left: 5%; } }
+
+@media (min-width: 1024px) {
+  .vision {
+    padding: 150px 20px; }
+    .vision__text {
+      width: 754px; }
+    .vision__block {
+      display: block; }
+      .vision__block--small:nth-of-type(1) {
+        top: 17%;
+        left: 27%; }
+      .vision__block--small:nth-of-type(2) {
+        bottom: 25%;
+        left: 30%; }
+      .vision__block--small:nth-of-type(3) {
+        top: 20%;
+        right: 10%; }
+      .vision__block--small:nth-of-type(4) {
+        bottom: 15%;
+        right: 35%; }
+      .vision__block--small:nth-of-type(5) {
+        bottom: 35%;
+        left: 5%; }
+      .vision__block--medium {
+        position: absolute;
+        width: 85px;
+        height: 33px;
+        border-radius: 12px;
+        border: 3px solid #2060f6;
+        -webkit-transform: rotate(-65deg);
+                transform: rotate(-65deg);
+        opacity: 0.5; }
+        .vision__block--medium:nth-of-type(6) {
+          position: absolute;
+          width: 85px;
+          height: 33px;
+          border-radius: 12px;
+          border: 5px solid #2060f6;
+          -webkit-transform: rotate(-65deg);
+                  transform: rotate(-65deg);
+          opacity: 0.5;
+          top: 80%;
+          left: 5%; }
+        .vision__block--medium:nth-of-type(7) {
+          top: 15%;
+          left: 15%; }
+        .vision__block--medium:nth-of-type(8) {
+          top: 35%;
+          right: 5%; }
+        .vision__block--medium:nth-of-type(9) {
+          top: 60%;
+          right: 22%; }
+      .vision__block--big {
+        position: absolute;
+        width: 143px;
+        height: 56px;
+        border-radius: 12px;
+        border: 5px solid #2060f6;
+        -webkit-transform: rotate(-65deg);
+                transform: rotate(-65deg);
+        opacity: 0.5; }
+        .vision__block--big:nth-of-type(10) {
+          position: absolute;
+          width: 153px;
+          height: 60px;
+          border-radius: 12px;
+          border: 5px solid #2060f6;
+          -webkit-transform: rotate(-65deg);
+                  transform: rotate(-65deg);
+          opacity: 0.5;
+          bottom: 25%;
+          right: 10%; }
+        .vision__block--big:nth-of-type(11) {
+          display: none;
+          top: 45%;
+          left: 15%; }
+        .vision__block--big:nth-of-type(12) {
+          display: none;
+          top: 25%;
+          right: 15%; } }
+
+@media (min-width: 1280px) {
+  .vision {
+    padding: 200px 20px; }
+    .vision__block:nth-of-type(11) {
+      display: block; }
+    .vision__block:nth-of-type(12) {
+      display: block; } }
 
 /*# sourceMappingURL=main.css.map */

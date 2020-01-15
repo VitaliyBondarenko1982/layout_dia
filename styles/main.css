@@ -825,8 +825,8 @@ button, .slider__description, .contact-info__text {
     .slider__button:active {
       -webkit-transform: scale(0.97);
               transform: scale(0.97);
-      -webkit-box-shadow: 0px 0px 1px inset #2c2c2c;
-              box-shadow: 0px 0px 1px inset #2c2c2c; }
+      -webkit-box-shadow: 0 0 1px inset #2c2c2c;
+              box-shadow: 0 0 1px inset #2c2c2c; }
     .slider__button--right {
       background-image: url(../images/slider/arrow-right.svg); }
   .slider__item {

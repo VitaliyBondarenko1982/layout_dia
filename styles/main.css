@@ -1270,12 +1270,15 @@ button, .slider__description {
   background-color: #fff;
   background-position: center;
   background-repeat: no-repeat; }
-  .approach__icon--shout {
-    background-image: url(../images/shout-icon.svg); }
-  .approach__icon--calendar {
-    background-image: url(../images/calendar-icon.svg); }
-  .approach__icon--letter {
-    background-image: url(../images/letter-icon.svg); }
+
+.approach__icon-shout {
+  background-image: url(../images/shout-icon.svg); }
+
+.approach__icon-calendar {
+  background-image: url(../images/calendar-icon.svg); }
+
+.approach__icon-letter {
+  background-image: url(../images/letter-icon.svg); }
 
 .approach__description {
   width: 264px;

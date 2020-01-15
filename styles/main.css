@@ -1,4 +1,20 @@
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -13,7 +29,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -22,8 +38,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -35,7 +51,23 @@ button, .slider__description {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -50,7 +82,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -59,8 +91,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -75,6 +107,9 @@ button, .slider__description {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
 
 html,
 body,
@@ -97,7 +132,10 @@ main {
 ul {
   list-style: none; }
 
-a {
+a,
+button,
+input,
+textarea {
   text-decoration: none;
   outline: none; }
 
@@ -116,7 +154,23 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -131,7 +185,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -140,52 +194,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
-  content: "";
-  position: absolute; }
-
-.slider__switcher {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-
-.container {
-  margin: 0 auto; }
-
-@media (min-width: 1280px) {
-  .container {
-    width: 1145px; } }
-
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600; }
-
-html,
-body,
-ul,
-li,
-input,
-textarea,
-p,
-h1,
-h2,
-h3,
-h4,
-button, .slider__description {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400; }
-
-.logo, .slider__item {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -241,7 +251,23 @@ button, .slider__description {
   .header__link {
     margin-left: auto; } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -256,7 +282,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -265,50 +291,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
-  content: "";
-  position: absolute; }
-
-.slider__switcher {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-
-.logo {
-  width: 45px;
-  height: 26px;
-  background-image: url(../images/logo/air-logo.svg); }
-
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600; }
-
-html,
-body,
-ul,
-li,
-input,
-textarea,
-p,
-h1,
-h2,
-h3,
-h4,
-button, .slider__description {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400; }
-
-.logo, .slider__item {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -332,7 +316,7 @@ button, .slider__description {
   to {
     margin-left: 0%; } }
 
-.nav__toggle {
+.nav-header__toggle {
   position: relative;
   width: 28px;
   height: 28px;
@@ -340,14 +324,14 @@ button, .slider__description {
   border: none;
   cursor: pointer;
   outline: none; }
-  .nav__toggle:focus {
+  .nav-header__toggle:focus {
     border: 1px solid #4a9fcf; }
 
-.nav--closed .nav__list {
+.nav-header--closed .nav-header__list {
   display: none; }
 
-.nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after {
+.nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after {
   top: 0;
   right: 0;
   width: 28px;
@@ -356,7 +340,7 @@ button, .slider__description {
   -webkit-box-shadow: 0 12px 0 0 #fff, 0 24px 0 0 #fff;
           box-shadow: 0 12px 0 0 #fff, 0 24px 0 0 #fff; }
 
-.nav--opened .nav__list {
+.nav-header--opened .nav-header__list {
   display: block;
   position: absolute;
   top: 60px;
@@ -366,8 +350,11 @@ button, .slider__description {
   height: 244px;
   -webkit-animation: menu 500ms ease-in-out;
           animation: menu 500ms ease-in-out; }
+  .nav-header--opened .nav-header__list .nav__link {
+    border-bottom: 1px solid #426ab4;
+    border-top: 1px solid #3363bb; }
 
-.nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   top: 12px;
   left: -5px;
   width: 35px;
@@ -378,39 +365,22 @@ button, .slider__description {
   transition: transform 400ms ease-in-out;
   transition: transform 400ms ease-in-out, -webkit-transform 400ms ease-in-out; }
 
-.nav--opened .nav__toggle::before {
+.nav-header--opened .nav-header__toggle::before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   -webkit-box-shadow: none;
           box-shadow: none; }
 
-.nav--opened .nav__toggle::after {
+.nav-header--opened .nav-header__toggle::after {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg); }
 
-.nav__link {
-  display: block;
-  font-weight: 700;
-  color: #fff;
-  font-size: 13px;
-  line-height: 25px;
-  padding: 10px 20px;
-  border-bottom: 1px solid #426ab4;
-  border-top: 1px solid #3363bb;
-  letter-spacing: 3px;
-  text-align: center;
-  text-transform: uppercase;
-  -webkit-transition: color 400ms ease-in-out;
-  transition: color 400ms ease-in-out; }
-  .nav__link:hover {
-    color: #2060f6; }
-
 @media (min-width: 640px) {
-  .nav--opened .nav__toggle,
-  .nav--closed .nav__toggle {
+  .nav-header--opened .nav-header__toggle,
+  .nav-header--closed .nav-header__toggle {
     display: none; }
-  .nav--opened .nav__list,
-  .nav--closed .nav__list {
+  .nav-header--opened .nav-header__list,
+  .nav-header--closed .nav-header__list {
     position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -421,20 +391,22 @@ button, .slider__description {
     top: 60px;
     left: 0;
     background-color: #2c2c2c;
-    width: 100vw;
+    width: 100%;
+    height: 45px;
     -webkit-animation: none;
             animation: none;
     border-bottom: 1px solid #426ab4;
     border-top: 1px solid #3363bb;
     z-index: 1; }
-  .nav__link {
-    border: none; } }
+    .nav-header--opened .nav-header__list .nav__link,
+    .nav-header--closed .nav-header__list .nav__link {
+      border: none; } }
 
 @media (min-width: 960px) {
-  .nav {
+  .nav-header {
     margin-left: 64px; }
-    .nav--opened .nav__list,
-    .nav--closed .nav__list {
+    .nav-header--opened .nav-header__list,
+    .nav-header--closed .nav-header__list {
       position: static;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -445,7 +417,23 @@ button, .slider__description {
               animation: none;
       border: none; } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -460,7 +448,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -469,8 +457,134 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.logo {
+  width: 45px;
+  height: 26px;
+  background-image: url(../images/logo/air-logo.svg); }
+
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description, .contact-info__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.nav__link {
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  font-size: 13px;
+  line-height: 25px;
+  padding: 10px 20px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: color 400ms ease-in-out;
+  transition: color 400ms ease-in-out; }
+  .nav__link:hover {
+    color: #2060f6; }
+
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description, .contact-info__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -500,8 +614,7 @@ button, .slider__description {
     color: #fff;
     font-size: 15px;
     line-height: 1.5;
-    margin-bottom: 20px;
-    max-width: 362px; }
+    margin-bottom: 20px; }
   .info__button {
     padding: 14px 70px; }
 
@@ -509,24 +622,19 @@ button, .slider__description {
   .info {
     position: relative; }
     .info__text {
-      padding: 80px 30px 20px; }
+      padding: 100px 30px 20px; }
     .info__title {
       width: 350px;
       font-size: 64px;
       line-height: 68px; }
     .info__description {
       width: 460px;
-      font-size: 18px; }
-    .info__button {
-      position: absolute;
-      top: 120px;
-      right: 30px; } }
+      font-size: 18px;
+      margin-bottom: 40px; } }
 
 @media (min-width: 1024px) {
   .info {
-    height: calc(100vh - 120px);
-    position: relative;
-    width: 100vw; }
+    height: calc(100vh - 120px); }
     .info__text {
       padding: 60px 30px; }
     .info__title {
@@ -544,7 +652,23 @@ button, .slider__description {
   .info__text {
     padding: 120px 0; } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -559,7 +683,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -568,8 +692,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -597,7 +721,23 @@ button, .slider__description {
     background-color: #fff;
     color: #2060f6; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -612,7 +752,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -621,8 +761,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -636,37 +776,6 @@ button, .slider__description {
 
 .slider {
   position: relative; }
-  .slider__controls {
-    position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 40px;
-    bottom: 15px;
-    left: 20px; }
-  .slider__controls-item {
-    display: inline-block;
-    position: relative;
-    width: 8px;
-    height: 8px;
-    padding: 8px;
-    border-radius: 50%;
-    cursor: pointer; }
-    .slider__controls-item::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
-      z-index: 1;
-      width: 10px;
-      height: 10px;
-      background: #fff;
-      border-radius: 50%; }
   .slider__info {
     position: absolute;
     display: -webkit-box;
@@ -708,12 +817,21 @@ button, .slider__description {
     background-position: center;
     background-repeat: no-repeat;
     outline: none;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 400ms ease-in-out;
+    transition: -webkit-transform 400ms ease-in-out;
+    transition: transform 400ms ease-in-out;
+    transition: transform 400ms ease-in-out, -webkit-transform 400ms ease-in-out; }
+    .slider__button:active {
+      -webkit-transform: scale(0.97);
+              transform: scale(0.97);
+      -webkit-box-shadow: 0px 0px 1px inset #2c2c2c;
+              box-shadow: 0px 0px 1px inset #2c2c2c; }
     .slider__button--right {
       background-image: url(../images/slider/arrow-right.svg); }
   .slider__item {
     display: none;
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 304px);
     border-radius: 30px 0; }
     .slider__item--1 {
@@ -728,42 +846,29 @@ button, .slider__description {
     display: block; }
   #slide-3:checked ~ .slider__list .slider__item--3 {
     display: block; }
-  #slide-1:checked ~ .slider__controls .slider__controls-item:nth-child(1)::before,
-  #slide-2:checked ~ .slider__controls .slider__controls-item:nth-child(2)::before,
-  #slide-3:checked ~ .slider__controls .slider__controls-item:nth-child(3)::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 2;
-    width: 6px;
-    height: 6px;
-    background-color: #2060f6;
-    border-radius: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
 
 @media (min-width: 640px) {
-  .slider__controls {
-    bottom: 25px;
-    left: 48px; }
-  .slider__info {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 360px;
-    bottom: 48px;
-    left: 48px; }
-  .slider__text {
-    width: 264px; }
-  .slider__item {
-    height: calc(100vh - 389px); } }
+  .slider {
+    display: none; }
+    .slider__controls {
+      bottom: 25px;
+      left: 48px; }
+    .slider__info {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 360px;
+      bottom: 48px;
+      left: 48px; }
+    .slider__text {
+      width: 264px; } }
 
 @media (min-width: 1024px) {
   .slider {
     position: absolute;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    display: block; }
     .slider__item {
       height: calc(100vh - 120px);
       width: 50vw; } }
@@ -776,7 +881,23 @@ button, .slider__description {
   .slider {
     right: calc((100vw - 1600px) / 2); } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -791,7 +912,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -800,8 +921,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -837,7 +958,23 @@ button, .slider__description {
     padding: 148px 0;
     width: 754px; } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -852,7 +989,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -861,8 +998,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -916,7 +1053,23 @@ button, .slider__description {
           -ms-flex-pack: justify;
               justify-content: space-between; } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -931,7 +1084,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -940,8 +1093,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -976,7 +1129,23 @@ button, .slider__description {
     font-size: 14px;
     line-height: 1.5; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -991,7 +1160,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -1000,8 +1169,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -1093,7 +1262,23 @@ button, .slider__description {
   .process__container {
     padding: 148px 0 44px; } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1108,7 +1293,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -1117,8 +1302,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -1194,7 +1379,23 @@ button, .slider__description {
     font-size: 15px;
     line-height: 22px; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1209,7 +1410,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -1218,8 +1419,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -1340,7 +1541,23 @@ button, .slider__description {
       width: 687px;
       height: 480px; } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1355,7 +1572,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -1364,8 +1581,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -1437,7 +1654,23 @@ button, .slider__description {
     padding: 148px 0 168px;
     width: 1146px; } }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1452,7 +1685,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -1461,8 +1694,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -1539,7 +1772,23 @@ button, .slider__description {
     font-weight: 700;
     letter-spacing: 3px; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title {
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1554,7 +1803,7 @@ h1,
 h2,
 h3,
 h4,
-button, .slider__description {
+button, .slider__description, .contact-info__text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
@@ -1563,8 +1812,8 @@ button, .slider__description {
   background-position: center;
   background-size: cover; }
 
-.header__link::after, .nav--closed .nav__toggle::before,
-.nav--closed .nav__toggle::after, .nav--opened .nav__toggle::before, .nav--opened .nav__toggle::after {
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
   content: "";
   position: absolute; }
 
@@ -1733,5 +1982,530 @@ button, .slider__description {
       display: block; }
     .vision__block:nth-of-type(12) {
       display: block; } }
+
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description, .contact-info__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.net-icons {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .net-icons__item {
+    position: relative;
+    width: 32px;
+    height: 32px; }
+  .net-icons__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: fill 400ms ease-in-out;
+    transition: fill 400ms ease-in-out; }
+    .net-icons__icon:hover {
+      fill: #2060f6; }
+
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description, .contact-info__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.contact {
+  background-color: #fff; }
+  .contact__dark {
+    background-color: #2c2c2c;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px; }
+  .contact__container {
+    padding: 50px 20px; }
+  .contact__form {
+    margin: auto;
+    margin-bottom: 40px; }
+
+@media (min-width: 640px) {
+  .contact__container {
+    padding: 75px 20px; }
+  .contact__form {
+    max-width: 460px; } }
+
+@media (min-width: 1024px) {
+  .contact__container {
+    padding: 120px 50px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .contact__form {
+    margin: 0; } }
+
+@media (min-width: 1280px) {
+  .contact__container {
+    padding: 180px 0 40px; }
+  .contact__contact-info {
+    width: 460px; } }
+
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description, .contact-info__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.form {
+  text-align: center; }
+  .form__title {
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-bottom: 40px; }
+  .form__field {
+    margin-bottom: 32px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    border: none;
+    padding: 16px 0;
+    width: 100%;
+    background-color: inherit;
+    border-bottom: 1px solid #fff;
+    -webkit-transition: border-color 400ms ease-in-out;
+    transition: border-color 400ms ease-in-out; }
+    .form__field:hover {
+      border-color: #2060f6; }
+    .form__field--textarea {
+      height: 55px; }
+    .form__field::-webkit-input-placeholder {
+      color: #fff;
+      font-size: 15px;
+      line-height: 22px;
+      opacity: 0.7; }
+    .form__field::-moz-placeholder {
+      color: #fff;
+      font-size: 15px;
+      line-height: 22px;
+      opacity: 0.7; }
+    .form__field:-ms-input-placeholder {
+      color: #fff;
+      font-size: 15px;
+      line-height: 22px;
+      opacity: 0.7; }
+    .form__field::-ms-input-placeholder {
+      color: #fff;
+      font-size: 15px;
+      line-height: 22px;
+      opacity: 0.7; }
+    .form__field::placeholder {
+      color: #fff;
+      font-size: 15px;
+      line-height: 22px;
+      opacity: 0.7; }
+
+@media (min-width: 640px) {
+  .form__title {
+    font-size: 32px; } }
+
+@media (min-width: 1024px) {
+  .form {
+    text-align: left; }
+    .form__title {
+      font-size: 32px; }
+    .form__field--textarea {
+      margin-bottom: 80px; } }
+
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description, .contact-info__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.contact-info {
+  text-align: center; }
+  .contact-info__title {
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-bottom: 30px; }
+  .contact-info__subtitle {
+    margin-bottom: 8px;
+    font-size: 700;
+    color: #fff;
+    font-size: 13px;
+    line-height: 19px;
+    opacity: 0.5;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .contact-info__text {
+    margin-bottom: 32px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5; }
+  .contact-info__list {
+    margin: auto;
+    margin-top: 16px; }
+
+@media (min-width: 640px) {
+  .contact-info__title {
+    font-size: 32px;
+    margin-bottom: 56px; }
+  .contact-info__text {
+    font-size: 24px;
+    margin-bottom: 48px; } }
+
+@media (min-width: 1024px) {
+  .contact-info {
+    text-align: left; }
+    .contact-info__list {
+      margin: 0; } }
+
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description, .contact-info__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.footer {
+  background-color: #2c2c2c; }
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px;
+    min-width: 320px; }
+  .footer__list {
+    padding: 20px 0; }
+  .footer__link {
+    height: 35px; }
+
+@media (min-width: 640px) {
+  .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
+@media (min-width: 1024px) {
+  .footer__container {
+    width: 924px;
+    padding: 0;
+    margin: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 120px; } }
+
+.form__field::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.form__field::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+html,
+body,
+ul,
+li,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+button, .slider__description, .contact-info__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.logo, .slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.header__link::after, .nav-header--closed .nav-header__toggle::before,
+.nav-header--closed .nav-header__toggle::after, .nav-header--opened .nav-header__toggle::before, .nav-header--opened .nav-header__toggle::after {
+  content: "";
+  position: absolute; }
+
+.slider__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.container {
+  margin: 0 auto; }
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1145px; } }
 
 /*# sourceMappingURL=main.css.map */

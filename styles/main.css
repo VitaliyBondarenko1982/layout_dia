@@ -602,7 +602,8 @@ button, .slider__description, .contact-info__text {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px; }
   .info__text {
-    padding: 20px; }
+    padding: 20px;
+    max-width: 362px; }
   .info__title {
     width: 240px;
     color: #fff;

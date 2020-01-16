@@ -652,17 +652,17 @@ button, .slider__description, .contact-info__text {
       width: 362px;
       font-size: 18px;
       margin: 0;
-      margin-bottom: 83px; }
-    .info__button {
-      position: static; } }
+      margin-bottom: 30px; } }
 
 @media (min-width: 1280px) {
   .info__text {
     padding: 120px 0; } }
 
-@media (min-width: 1280px) {
+@media (min-width: 1600px) {
   .info {
-    height: 680px; } }
+    height: 680px; }
+    .info__description {
+      margin-bottom: 83px; } }
 
 .form__field::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
@@ -806,16 +806,21 @@ button, .slider__description, .contact-info__text {
     width: 184px; }
   .slider__title {
     margin-bottom: 8px;
+    width: 52px;
     font-weight: 700;
     color: #fff;
     font-size: 13px;
     line-height: 19px;
     letter-spacing: 3px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px); }
   .slider__description {
     color: #fff;
     font-size: 14px;
-    line-height: 1.4; }
+    line-height: 1.4;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px); }
   .slider__switcher {
     width: 72px; }
   .slider__button {

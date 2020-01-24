@@ -2084,11 +2084,8 @@ button, .slider__description, .contact-info__text {
     -webkit-transition: fill 400ms ease-in-out;
     transition: fill 400ms ease-in-out;
     outline: 0; }
-    .net-icons__icon:hover {
+    .net-icons__icon:hover, .net-icons__icon:focus {
       fill: #2060f6; }
-    .net-icons__icon:focus {
-      -webkit-box-shadow: 0 0 5px #eee;
-              box-shadow: 0 0 5px #eee; }
 
 .form__field::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
@@ -2241,7 +2238,7 @@ button, .slider__description, .contact-info__text {
     border-bottom: 1px solid #fff;
     -webkit-transition: border-color 400ms ease-in-out;
     transition: border-color 400ms ease-in-out; }
-    .form__field:hover {
+    .form__field:hover, .form__field:focus {
       border-color: #2060f6; }
     .form__field--textarea {
       height: 55px; }

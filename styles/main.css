@@ -1,20 +1,20 @@
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -46,23 +46,23 @@ button, .slider__description, .contact-info__text {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -144,23 +144,23 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -240,23 +240,23 @@ button, .slider__description, .contact-info__text {
   .header__link {
     margin-left: auto; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -403,23 +403,23 @@ button, .slider__description, .contact-info__text {
               animation: none;
       border: none; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -459,23 +459,23 @@ button, .slider__description, .contact-info__text {
     -webkit-box-shadow: 1px 1px 1px #2060f6;
             box-shadow: 1px 1px 1px #2060f6; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -533,23 +533,23 @@ button, .slider__description, .contact-info__text {
   .nav__link:focus {
     text-shadow: 2px 2px #2060f6; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -604,8 +604,24 @@ button, .slider__description, .contact-info__text {
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 20px; }
-  .info__button {
-    padding: 14px 70px; }
+  .info__link {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 14px 70px;
+    background-color: #2060f6;
+    border: 1px solid #2060f6;
+    border-radius: 8px;
+    -webkit-transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
+    transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
+    outline: none;
+    cursor: pointer; }
+    .info__link:hover {
+      background-color: #fff;
+      color: #2060f6; }
+    .info__link:focus {
+      -webkit-box-shadow: 0 0 2px inset #eee;
+              box-shadow: 0 0 2px inset #eee; }
 
 @media (min-width: 640px) {
   .info {
@@ -654,23 +670,23 @@ button, .slider__description, .contact-info__text {
     .info__description {
       margin-bottom: 83px; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -721,23 +737,23 @@ button, .slider__description, .contact-info__text {
     -webkit-box-shadow: 0 0 2px inset #eee;
             box-shadow: 0 0 2px inset #eee; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -895,23 +911,23 @@ button, .slider__description, .contact-info__text {
   .slider {
     right: calc((100vw - 1600px) / 2); } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -975,23 +991,23 @@ button, .slider__description, .contact-info__text {
     font-size: 24px;
     line-height: 1.5; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1065,23 +1081,23 @@ button, .slider__description, .contact-info__text {
           -ms-flex-pack: justify;
               justify-content: space-between; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1136,23 +1152,23 @@ button, .slider__description, .contact-info__text {
     font-size: 14px;
     line-height: 1.5; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1270,23 +1286,23 @@ button, .slider__description, .contact-info__text {
   .process__container {
     padding: 80px 0 44px; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1341,17 +1357,7 @@ button, .slider__description, .contact-info__text {
     color: #6c788b;
     font-size: 13px;
     line-height: 20px; }
-  .process-card__extra {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .process-card .process__icon {
+  .process-card__icon {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1377,31 +1383,45 @@ button, .slider__description, .contact-info__text {
               box-shadow: 0 0 5px #2060f6; }
     .process-card__button:hover {
       background-color: #fff; }
-      .process-card__button:hover .process__icon {
+      .process-card__button:hover .process-card__icon {
         fill: #2060f6; }
+  .process-card__extra {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .process-card__extra:hover .process-card__button {
+      background-color: #fff; }
+    .process-card__extra:hover .process-card__icon {
+      fill: #2060f6; }
   .process-card__more {
     margin-left: 16px;
     color: #334563;
     font-size: 15px;
     line-height: 22px; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1578,23 +1598,23 @@ button, .slider__description, .contact-info__text {
       width: 50vw;
       height: 680px; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1696,23 +1716,23 @@ button, .slider__description, .contact-info__text {
     .testimonials__item {
       margin: 0; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1750,7 +1770,16 @@ button, .slider__description, .contact-info__text {
   background-color: #fff;
   border-radius: 16px;
   text-align: center;
-  padding: 87px 32px 32px; }
+  padding: 87px 32px 32px;
+  -webkit-transition: -webkit-transform 400ms ease-in-out, -webkit-box-shadow 400ms ease-in-out;
+  transition: -webkit-transform 400ms ease-in-out, -webkit-box-shadow 400ms ease-in-out;
+  transition: transform 400ms ease-in-out, box-shadow 400ms ease-in-out;
+  transition: transform 400ms ease-in-out, box-shadow 400ms ease-in-out, -webkit-transform 400ms ease-in-out, -webkit-box-shadow 400ms ease-in-out; }
+  .person:hover {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+    -webkit-box-shadow: 0 0 8px grey;
+            box-shadow: 0 0 8px grey; }
   .person__photo {
     position: relative; }
     .person__photo::before, .person__photo::after {
@@ -1762,8 +1791,8 @@ button, .slider__description, .contact-info__text {
       height: 56px;
       border-radius: 12px;
       background-color: #2060f6;
-      -webkit-transform: rotate(-60deg);
-              transform: rotate(-60deg); }
+      -webkit-transform: rotate(-60deg) scale(1);
+              transform: rotate(-60deg) scale(1); }
     .person__photo::before {
       top: 0;
       left: 10px; }
@@ -1809,23 +1838,23 @@ button, .slider__description, .contact-info__text {
     font-weight: 700;
     letter-spacing: 3px; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -1874,6 +1903,26 @@ button, .slider__description, .contact-info__text {
     line-height: 1.5; }
   .vision__block {
     display: none; }
+  .vision__button {
+    border: none; }
+  .vision__link {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 17px 90px;
+    background-color: #2060f6;
+    border: 1px solid #2060f6;
+    border-radius: 8px;
+    -webkit-transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
+    transition: color 400ms ease-in-out, background-color 400ms ease-in-out;
+    outline: none;
+    cursor: pointer; }
+    .vision__link:hover {
+      background-color: #fff;
+      color: #2060f6; }
+    .vision__link:focus {
+      -webkit-box-shadow: 0 0 2px inset #eee;
+              box-shadow: 0 0 2px inset #eee; }
 
 @media (min-width: 640px) {
   .vision {
@@ -2015,23 +2064,23 @@ button, .slider__description, .contact-info__text {
     .vision__block:nth-of-type(12) {
       display: block; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -2087,23 +2136,23 @@ button, .slider__description, .contact-info__text {
     .net-icons__icon:hover, .net-icons__icon:focus {
       fill: #2060f6; }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -2171,23 +2220,23 @@ button, .slider__description, .contact-info__text {
   .contact__contact-info {
     width: 460px; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -2234,39 +2283,45 @@ button, .slider__description, .contact-info__text {
     border: none;
     padding: 16px 0;
     width: 100%;
-    background-color: inherit;
+    background-color: transparent !important;
     border-bottom: 1px solid #fff;
     -webkit-transition: border-color 400ms ease-in-out;
     transition: border-color 400ms ease-in-out; }
-    .form__field:hover, .form__field:focus {
+    .form__field:-webkit-autofill {
+      border-bottom: 1px solid #2060f6;
+      -webkit-text-fill-color: #fff !important;
+      -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0) inset !important;
+      box-shadow: 0 0 0 1000px #2c2c2c inset !important; }
+    .form__field:hover, .form__field:focus, .form__field:active {
       border-color: #2060f6; }
-    .form__field--textarea {
-      height: 55px; }
-    .form__field::-webkit-input-placeholder {
-      color: #fff;
-      font-size: 15px;
-      line-height: 22px;
-      opacity: 0.7; }
-    .form__field::-moz-placeholder {
-      color: #fff;
-      font-size: 15px;
-      line-height: 22px;
-      opacity: 0.7; }
-    .form__field:-ms-input-placeholder {
-      color: #fff;
-      font-size: 15px;
-      line-height: 22px;
-      opacity: 0.7; }
-    .form__field::-ms-input-placeholder {
-      color: #fff;
-      font-size: 15px;
-      line-height: 22px;
-      opacity: 0.7; }
-    .form__field::placeholder {
-      color: #fff;
-      font-size: 15px;
-      line-height: 22px;
-      opacity: 0.7; }
+  .form--textarea {
+    height: 55px;
+    border-color: #2060f6; }
+  .form::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    opacity: 0.7; }
+  .form::-moz-placeholder {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    opacity: 0.7; }
+  .form:-ms-input-placeholder {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    opacity: 0.7; }
+  .form::-ms-input-placeholder {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    opacity: 0.7; }
+  .form::placeholder {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    opacity: 0.7; }
 
 @media (min-width: 640px) {
   .form__title {
@@ -2280,23 +2335,23 @@ button, .slider__description, .contact-info__text {
     .form__field--textarea {
       margin-bottom: 80px; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -2368,23 +2423,23 @@ button, .slider__description, .contact-info__text {
     .contact-info__list {
       margin: 0; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
@@ -2469,23 +2524,23 @@ button, .slider__description, .contact-info__text {
   .footer__list {
     width: 640px; } }
 
-.form__field::-webkit-input-placeholder {
+.form::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-moz-placeholder {
+.form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field:-ms-input-placeholder {
+.form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.form__field::-ms-input-placeholder {
+.form::-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
-.header__link, .nav__link, .info__title, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .form__title, .form__field, .form__field::placeholder, .contact-info__title, .contact-info__subtitle {
+.header__link, .nav__link, .info__title, .info__link, .button, .slider__title, .about__title, .expertise__title, .expertise-card__title, .process__subtitle, .process__title, .process-card__number, .process-card__more, .approach__subtitle, .approach__title, .testimonials__subtitle, .testimonials__title, .person__job, .vision__title, .vision__link, .form__title, .form__field, .form::placeholder, .contact-info__title, .contact-info__subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 600; }
 
